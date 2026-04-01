@@ -46,5 +46,7 @@ void tampilPrima() {
 void tampilFibonacci() {
     if (fibonacci(x)) {
         cout << x << " termasuk bilangan Fibonacci." << endl;
+    } else {
+        cout << x << " bukan bilangan Fibonacci." << endl;
     }
 }
