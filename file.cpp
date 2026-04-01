@@ -65,7 +65,10 @@ int main() {
         cin >> menuPilihan;
 
         switch (menuPilihan) {
-            
+            case 1:
+                inputAngka();
+                tampilPrima();
+                break;
         }
     }
 }
