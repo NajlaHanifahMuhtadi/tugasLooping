@@ -15,3 +15,7 @@ bool prima(int x){
     }
     return true;
 }
+
+bool fibonacci(int x){
+    
+}
