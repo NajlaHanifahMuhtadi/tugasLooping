@@ -38,5 +38,7 @@ void inputAngka() {
 void tampilPrima() {
     if (prima(x)) {
         cout << x << " adalah bilangan prima." << endl;
+    } else {
+        cout << x << " bukan bilangan prima." << endl;
     }
 }
