@@ -42,3 +42,9 @@ void tampilPrima() {
         cout << x << " bukan bilangan prima." << endl;
     }
 }
+
+void tampilFibonacci() {
+    if (fibonacci(x)) {
+        cout << x << " termasuk bilangan Fibonacci." << endl;
+    }
+}
