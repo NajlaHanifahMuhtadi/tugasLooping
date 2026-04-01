@@ -73,6 +73,11 @@ int main() {
                 inputAngka();
                 tampilFibonacci();
                 break;
+            case 0:
+                cout << "Program selesai." << endl;
+                return 0;
+            default:
+                cout << "Pilihan tidak valid!" << endl;
         }
     }
 }
